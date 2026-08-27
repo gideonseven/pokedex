@@ -1,4 +1,4 @@
-package com.gt.pokedex.core.designsystem
+package com.gt.pokedex.buildlogic
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.gt.pokedex.core.designsystem", appContext.packageName)
+        assertEquals("com.gt.pokedex.buildlogic", appContext.packageName)
     }
 }
