@@ -1,4 +1,10 @@
 @file:Suppress("UnstableApiUsage")
+
+include(":core:model")
+
+
+include(":core:navigation")
+
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 pluginManagement {
     includeBuild("build-logic")
